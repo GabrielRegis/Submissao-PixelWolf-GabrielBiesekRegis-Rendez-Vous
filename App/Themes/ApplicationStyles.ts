@@ -393,7 +393,6 @@ export default {
         } as ViewStyle,
         mainContainer: {
             flex: 1,
-            backgroundColor: Colors.colors.white
         } as ViewStyle,
         textInputView: {
             width: responsiveWidth(85),

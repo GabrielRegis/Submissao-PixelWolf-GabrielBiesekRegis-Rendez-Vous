@@ -6,7 +6,8 @@ const colors = {
     rendezvousBlue: '#5E97EA',
     rendezvousPink: '#FF457E',
     rendezvousWhite: '#EDF2F4',
-    rendezvousGrey: '#8D99AE'
+    rendezvousGrey: '#8D99AE',
+    rendezvousSilentGrey: '#E7E7E7'
 };
 
 export default {

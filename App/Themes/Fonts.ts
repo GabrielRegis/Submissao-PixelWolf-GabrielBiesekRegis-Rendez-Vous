@@ -7,7 +7,7 @@ const fontFamilies = {
     robotoBold: Platform.OS === 'ios' ? 'Roboto-Bold' : 'Roboto-Bold'
 };
 
-const defaultFont = fontFamilies.roboto;
+const defaultFont = fontFamilies.caviarDreams;
 const defaultBoldFont = fontFamilies.robotoBold;
 const defaultThinFont = fontFamilies.robotoThin;
 
