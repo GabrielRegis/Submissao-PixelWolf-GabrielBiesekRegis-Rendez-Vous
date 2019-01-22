@@ -1,0 +1,4 @@
+#Mon Jan 21 23:02:41 BRST 2019
+base.0=/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

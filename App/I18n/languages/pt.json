@@ -1,0 +1,8 @@
+{
+    "loginScreen": {
+        "passwordHint": "Insira sua senha",
+        "emailHint": "Insira seu email",
+        "forgotPassword": "Esqueci a senha",
+        "btnLogin": "Entrar"
+    }
+}
