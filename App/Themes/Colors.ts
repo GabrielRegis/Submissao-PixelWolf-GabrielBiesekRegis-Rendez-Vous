@@ -1,6 +1,6 @@
 const colors = {
     rendezvousRed: '#EF233C',
-    randezvousOrange: '#F87824',
+    randezvousOrange: '#FF5B43',
     rendezvousGunmetal: '#2B2D42',
     rendezvousGreen: '#32DC83',
     rendezvousBlue: '#5E97EA',

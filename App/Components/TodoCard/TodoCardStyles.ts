@@ -8,7 +8,8 @@ export default {
     } as ViewStyle,
     todoContainer: {
         borderRadius: 5,
-        height: 90,
+        minHeight: 90,
+        maxHeight: 90,
         width: '100%',
         backgroundColor: Colors.colors.rendezvousWhite,
         flexDirection: 'row',
@@ -38,6 +39,12 @@ export default {
         fontFamily: Fonts.defaultFont,
         textAlign: 'left',
         fontSize: 14
+    } as TextStyle,
+    todoDescriptionText: {
+        fontFamily: Fonts.defaultFont,
+        textAlign: 'justify',
+        fontSize: 14,
+        color: Colors.colors.rendezvousGunmetal
     } as TextStyle,
     todoCategoryIcon: {
         fontSize: 25

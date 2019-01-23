@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { View, Text, TextStyle, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
+import { View, Text, TextStyle, TouchableOpacity } from 'react-native';
 
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import styles from './EditTodoScreenStyles';
 import { Todo } from '../../Model/Todo';
 import { TodoCategory } from '../../Model/TodoCategory';
@@ -122,7 +123,7 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
         const category = this.state.updatedTodo.category ? this.state.updatedTodo.category : {};
 
         return (
-            <KeyboardAvoidingView style={styles.mainContainer}>
+            <View style={styles.mainContainer}>
                 <View style={[styles.centeredRow, styles.padding, styles.navbar, { backgroundColor: category.color }]}>
                     <Text style={styles.navbarText}>{category.title}</Text>
                     <View style={styles.leftAlignedRow}>
@@ -130,7 +131,7 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
                         <ImageButton onPress={this.onOkPressed} style={styles.marginLeft} iconStyle={[styles.navbarIconButton]} iconName={'check'} />
                     </View>
                 </View>
-                <View style={[styles.fullContainer, styles.padding]}>
+                <KeyboardAwareScrollView contentContainerStyle={styles.scrollContainer} style={[styles.fullContainer, styles.padding]}>
                     <View style={[styles.centeredRow]}>
                         <LabeledTextField
                             style={styles.flex3}
@@ -155,7 +156,7 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
                         onTextChanged={this.onDescriptionChanged}
                         color={category.color}
                         label={I18n.t(['EditTodoScreen', 'descriptionLabel'])}
-                        maxLength={150}
+                        maxLength={100}
                     />
                     <DatePicker
                         fadeToColor={'none'}
@@ -172,8 +173,8 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
                             <Text style={styles.saveButtonText}>{I18n.t(['EditTodoScreen', 'saveLabel'])}</Text>
                         </TouchableOpacity>
                     </View>
-                </View>
-            </KeyboardAvoidingView>
+                </KeyboardAwareScrollView>
+            </View>
         );
     }
 }

@@ -67,18 +67,20 @@ export class RendezVousMainScreen extends React.Component<RendezVousMainScreen.P
     filterTodos = (todos: Todo[]) => {
         const search = this.state.search ? this.state.search : '';
 
-        const filteredTodosUpdated: Todo[] = Object.assign([], todos).filter((todo: Todo) => {
+        const filteredTodos: Todo[] = Object.assign([], todos).filter((todo: Todo) => {
+            return (this.state.filters.filterByCompletedTasks && todo.isChecked) || (this.state.filters.filterByPendingTasks && !todo.isChecked);
+        });
+
+        const searchFilteredTodods = filteredTodos.filter((todo: Todo) => {
             const title = (todo.title ? todo.title : '').toLocaleLowerCase();
             const description = (todo.description ? todo.description : '').toLocaleLowerCase();
 
-            return (
-                ((title.includes(search) || description.includes(search)) && (this.state.filters.filterByCompletedTasks && todo.isChecked)) ||
-                (this.state.filters.filterByPendingTasks && !todo.isChecked)
-            );
+            return title.includes(search) || description.includes(search);
         });
-        filteredTodosUpdated.push({});
+
+        searchFilteredTodods.push({});
         this.setState({
-            filteredTodos: filteredTodosUpdated
+            filteredTodos: searchFilteredTodods
         });
     };
 
@@ -104,7 +106,6 @@ export class RendezVousMainScreen extends React.Component<RendezVousMainScreen.P
             isChecked: checked
         };
         this.props.todosActions.editTodo(updatedTodos[todoIndex]);
-        this.resetFilters();
     };
 
     onTodoEditPress = (todoAux: Todo) => {

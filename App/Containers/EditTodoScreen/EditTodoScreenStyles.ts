@@ -34,5 +34,8 @@ export default {
     } as TextStyle,
     datePicker: {
         backgroundColor: Colors.colors.rendezvousWhite
-    }
+    } as ViewStyle,
+    scrollContainer: {
+        height: 550
+    } as ViewStyle
 };

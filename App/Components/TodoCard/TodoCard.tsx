@@ -9,6 +9,7 @@ import moment from 'moment';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Checkbox from '../Checkbox/Checkbox';
 import * as Animatable from 'react-native-animatable';
+import { Colors } from '../../Themes';
 
 export namespace TodoCard {
     // tslint:disable-next-line:no-empty-interface
@@ -69,37 +70,57 @@ export default class TodoCard extends React.Component<TodoCard.Props, TodoCard.S
             <Animatable.View
                 ref={(ref) => (this.animatableView = ref)}
                 duration={200}
-                transition={'height'}
+                transition={'maxHeight'}
                 style={[
                     styles.shadowView2,
                     styles.todoContainer,
                     styles.mainTodoContainer,
                     { backgroundColor: categoryColor },
-                    { height: this.state.isOpened ? 120 : 90 }
+                    { maxHeight: this.state.isOpened ? 500 : 90 }
                 ]}>
                 <View style={[styles.positionAbsolute, styles.centeredRow, styles.leftAlignedRow, styles.padding]}>
                     <ImageButton onPress={this.onDeletePressed} iconName="trash-alt" />
                     <ImageButton onPress={() => this.props.onEditTodoPressed(this.props.todo)} style={styles.marginLeft} iconName="pencil-alt" />
                 </View>
                 <Interactable.View horizontalOnly={true} snapPoints={[{ x: 0 }, { x: 150 }]}>
-                    <Animatable.View duration={200} transition={'height'} style={[styles.todoContainer, { height: this.state.isOpened ? 120 : 90 }]}>
+                    <Animatable.View duration={200} transition={'maxHeight'} style={[styles.todoContainer, { maxHeight: this.state.isOpened ? 500 : 90 }]}>
                         <View style={styles.todoLeftContainer}>
                             <View style={[styles.marker, { backgroundColor: categoryColor }]} />
                             <TouchableOpacity onPress={this.onTodoPressed}>
-                                <View style={[styles.leftAlignedColumn, styles.marginLeft]}>
-                                    <Text style={[styles.todoTitleText, componentsCategoryAndStatusStyle]}>{this.props.todo.title}</Text>
+                                <View style={[styles.leftAlignedColumn, styles.marginLeft, styles.smallPaddingTop, styles.smallPaddingBottom]}>
                                     <Animatable.Text
-                                        duration={250}
-                                        transition={['opacity', 'height']}
+                                        duration={200}
+                                        transition={['opacity', 'fontSize']}
+                                        style={[styles.todoTitleText, componentsCategoryAndStatusStyle, { fontSize: this.props.todo.isChecked ? 18 : 20 }]}>
+                                        {this.props.todo.title}
+                                    </Animatable.Text>
+                                    <Animatable.Text
+                                        duration={180}
+                                        transition={['opacity', 'maxHeight', 'marginTop']}
                                         style={[
-                                            styles.todoDateText,
-                                            styles.xSmallMarginTop,
+                                            styles.todoDescriptionText,
+                                            styles.smallMarginTop,
                                             componentsCategoryAndStatusStyle,
-                                            { opacity: this.state.isOpened ? 1 : 0, height: this.state.isOpened ? 20 : 0 }
+                                            {
+                                                opacity: this.state.isOpened ? 1 : 0,
+                                                maxHeight: this.state.isOpened ? 500 : 0,
+                                                fontSize: this.props.todo.isChecked ? 12 : 14,
+                                                marginTop: this.state.isOpened ? 10 : 2
+                                            }
                                         ]}>
                                         {this.props.todo.description}
                                     </Animatable.Text>
-                                    <Text style={[styles.todoDateText, styles.xSmallMarginTop, componentsCategoryAndStatusStyle]}>{todoDate}</Text>
+                                    <Animatable.Text
+                                        duration={200}
+                                        transition={['opacity', 'fontSize', 'marginTop']}
+                                        style={[
+                                            styles.todoDateText,
+                                            styles.smallMarginTop,
+                                            componentsCategoryAndStatusStyle,
+                                            { fontSize: this.props.todo.isChecked ? 12 : 14, marginTop: this.state.isOpened ? 10 : 2 }
+                                        ]}>
+                                        {todoDate}
+                                    </Animatable.Text>
                                 </View>
                             </TouchableOpacity>
                         </View>
