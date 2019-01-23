@@ -5,10 +5,11 @@ import { NavigationReducer } from './navigation';
 import configureStore from './store';
 import LoginReducer from './login/reducers';
 import { RootState } from './state';
-
+import TodoReducer from './todos/reducers';
 export const reducers: Reducer<RootState> = combineReducers<RootState>({
     nav: NavigationReducer,
-    login: LoginReducer
+    login: LoginReducer,
+    todos: TodoReducer
 });
 
 export const createApplicationStore = () => {

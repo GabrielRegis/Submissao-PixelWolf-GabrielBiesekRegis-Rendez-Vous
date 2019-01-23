@@ -4,13 +4,18 @@ ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/ma
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-date-picker] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-date-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-i18n] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-config] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [cn.carbswang.android:NumberPickerView:1.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.1.1.aar/280eb511400ef9934d994db220080678/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58d85ac7a382e61c279cfc1d51e1bc40/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/167fb41d76828bd1cf7f82a1ac483131/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d80f7586853bd7808b1f8305a792eab9/AndroidManifest.xml:17:1-27:12
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/49ea5b4ad39ece197678ae31ea0d7259/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/61d7985aafd0dbc94b989bc3730bd4a0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/59ec92170ffd5c49e7a12c9959fe260e/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3281a838482ea5cea932baad38eb2409/AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/2b3bec79370a59434c602d9630db8a05/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/224c162de4f0675ccf77d8ffdc27964d/AndroidManifest.xml:2:1-9:12
@@ -53,10 +58,16 @@ MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-
 MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-16:19
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58d85ac7a382e61c279cfc1d51e1bc40/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58d85ac7a382e61c279cfc1d51e1bc40/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/167fb41d76828bd1cf7f82a1ac483131/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/167fb41d76828bd1cf7f82a1ac483131/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d80f7586853bd7808b1f8305a792eab9/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d80f7586853bd7808b1f8305a792eab9/AndroidManifest.xml:25:5-20
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:12:5-20
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/49ea5b4ad39ece197678ae31ea0d7259/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/49ea5b4ad39ece197678ae31ea0d7259/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/61d7985aafd0dbc94b989bc3730bd4a0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/61d7985aafd0dbc94b989bc3730bd4a0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/59ec92170ffd5c49e7a12c9959fe260e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/59ec92170ffd5c49e7a12c9959fe260e/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/84ed074ba68ca5c13b1a2773b355b4e4/AndroidManifest.xml:2:3-17
@@ -99,6 +110,8 @@ uses-sdk
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-date-picker] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-date-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-date-picker] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-date-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
@@ -107,12 +120,20 @@ MERGED from [:react-native-i18n] /Users/gabrielregis/Projetos/PixelWolf-Rendez-V
 MERGED from [:react-native-i18n] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-config] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-config] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.carbswang.android:NumberPickerView:1.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.1.1.aar/280eb511400ef9934d994db220080678/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.carbswang.android:NumberPickerView:1.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.1.1.aar/280eb511400ef9934d994db220080678/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58d85ac7a382e61c279cfc1d51e1bc40/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58d85ac7a382e61c279cfc1d51e1bc40/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/167fb41d76828bd1cf7f82a1ac483131/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/167fb41d76828bd1cf7f82a1ac483131/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d80f7586853bd7808b1f8305a792eab9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d80f7586853bd7808b1f8305a792eab9/AndroidManifest.xml:21:5-23:78
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:8:5-10:41
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/49ea5b4ad39ece197678ae31ea0d7259/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/49ea5b4ad39ece197678ae31ea0d7259/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/61d7985aafd0dbc94b989bc3730bd4a0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/61d7985aafd0dbc94b989bc3730bd4a0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/59ec92170ffd5c49e7a12c9959fe260e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/59ec92170ffd5c49e7a12c9959fe260e/AndroidManifest.xml:20:5-43
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3281a838482ea5cea932baad38eb2409/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3281a838482ea5cea932baad38eb2409/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/2b3bec79370a59434c602d9630db8a05/AndroidManifest.xml:5:5-7:41
@@ -131,6 +152,8 @@ MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/gabrielregis/.gradle/cache
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7c50867933ca7730d6644d0c3047320d/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/d80f7586853bd7808b1f8305a792eab9/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml

@@ -8,7 +8,7 @@ export default {
         height: '50px'
     } as ImageStyle,
     defaultIcon: {
-        fontSize: 40,
+        fontSize: 30,
         color: Colors.colors.rendezvousWhite
     } as TextStyle
 };

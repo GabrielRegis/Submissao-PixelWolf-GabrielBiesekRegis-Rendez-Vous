@@ -3,6 +3,7 @@ package com.rendezvous;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.henninghall.date_picker.DatePickerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.wix.interactable.Interactable;
 import com.i18n.reactnativei18n.ReactNativeI18n;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new DatePickerPackage(),
             new VectorIconsPackage(),
             new Interactable(),
             new ReactNativeI18n(),

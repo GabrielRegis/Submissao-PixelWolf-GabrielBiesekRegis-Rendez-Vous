@@ -3,6 +3,15 @@
         "athleticsCategoryLabel": "Atividade Física",
         "socialCategoryLabel": "Social",
         "educationCategoryLabel": "Educação",
-        "foodCategoryLabel": "Alimentação"
+        "foodCategoryLabel": "Alimentação",
+        "addButtonLabel": "Adicionar tarefa"
+    },
+    "EditTodoScreen": {
+        "titleLabel": "Título",
+        "descriptionLabel": "Descrição",
+        "saveLabel": "Salvar tarefa"
+    },
+    "FiltersScreen": {
+        "filtersLabel": "Filtros"
     }
 }

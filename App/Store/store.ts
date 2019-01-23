@@ -34,9 +34,9 @@ export default (rootReducer: Reducer<RootState>, rootSaga: () => SagaIterator) =
 
     const store: Store<RootState> = createAppropriateStore(rootReducer, composeEnhancers(...enhancers));
 
-    // if (ReduxPersist.active) {
-    //     RehydrationServices.updateReducers(store);
-    // }
+    if (ReduxPersist.active) {
+        RehydrationServices.updateReducers(store);
+    }
 
     const sagasManager = sagaMiddleware.run(rootSaga);
 

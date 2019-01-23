@@ -8,7 +8,9 @@ export namespace Checkbox {
     export interface Props {
         style?: ViewStyle | TextStyle | ImageStyle;
         onCheckedChanged?: (isChecked: boolean) => void;
+        isChecked?: boolean;
         color?: string;
+        disableTouch?: boolean;
     }
 
     // tslint:disable-next-line:no-empty-interface
@@ -23,7 +25,7 @@ export default class Checkbox extends React.Component<Checkbox.Props, Checkbox.S
     constructor(props: Checkbox.Props, context?: any) {
         super(props, context);
         this.state = {
-            isChecked: false,
+            isChecked: this.props.isChecked ? this.props.isChecked : false,
             isComponentReady: false
         };
     }
@@ -66,7 +68,16 @@ export default class Checkbox extends React.Component<Checkbox.Props, Checkbox.S
     };
 
     public render() {
-        return (
+        return this.props.disableTouch ? (
+            <View style={[styles.centeredColumn, styles.checkboxContainer, this.props.style]}>
+                <View style={[styles.centeredColumn, styles.checkboxContainer, this.props.style]}>
+                    <Animatable.View
+                        ref={(ref) => (this.checkRef = ref)}
+                        style={[styles.checkboxCheck, this.props.color ? { backgroundColor: this.props.color } : {}]}
+                    />
+                </View>
+            </View>
+        ) : (
             <TouchableWithoutFeedback onPress={this.onCheckPressed} style={[styles.centeredColumn, styles.checkboxContainer, this.props.style]}>
                 <View style={[styles.centeredColumn, styles.checkboxContainer, this.props.style]}>
                     <Animatable.View

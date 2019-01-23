@@ -1,52 +1,26 @@
-import { StyleSheet, ViewStyle, TextStyle } from 'react-native';
+import { StyleSheet, ViewStyle, TextStyle, Dimensions, Platform } from 'react-native';
 import { ApplicationStyles, Colors, Fonts } from '../../Themes/index';
+import { responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
+
+const { width, height } = Dimensions.get('window');
 
 export default {
     ...ApplicationStyles.screen,
     fullContainer: {
         ...ApplicationStyles.screen.fullContainer,
-        backgroundColor: Colors.colors.rendezvousGunmetal
+        backgroundColor: Colors.colors.rendezvousGunmetal,
+        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : responsiveWidth(3)
     } as ViewStyle,
-    todoContainer: {
+    addTodoButton: {
         borderRadius: 5,
-        minHeight: 90,
+        height: 90,
         width: '100%',
-        backgroundColor: Colors.colors.rendezvousWhite,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        overflow: 'hidden'
+        backgroundColor: Colors.colors.rendezvousSilentGrey,
+        marginTop: 10
     } as ViewStyle,
-    marker: {
-        minHeight: 90,
-        height: '100%',
-        width: 15,
-        backgroundColor: Colors.colors.randezvousOrange
-    } as ViewStyle,
-    todoLeftContainer: {
-        flexDirection: 'row',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        height: '100%',
-        width: '50%'
-    } as ViewStyle,
-    todoRightContainer: {
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '50%'
-    },
-    todoTitleText: {
+    addTodoButtonText: {
         fontFamily: Fonts.defaultFont,
-        textAlign: 'left',
-        fontSize: 20
-    } as TextStyle,
-    todoDateText: {
-        fontFamily: Fonts.defaultFont,
-        textAlign: 'left',
-        fontSize: 14
-    } as TextStyle,
-    todoCategoryIcon: {
-        fontSize: 25
-    }
+        fontSize: 18,
+        color: Colors.colors.rendezvousGunmetal
+    } as TextStyle
 };

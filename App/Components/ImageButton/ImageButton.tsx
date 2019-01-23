@@ -2,7 +2,7 @@ import * as React from 'react';
 import { TouchableOpacity, Image, ImageRequireSource, ViewStyle, TextStyle, ImageStyle } from 'react-native';
 
 import styles from './ImageButtonStyles';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 export namespace ImageButton {
     // tslint:disable-next-line:no-empty-interface
@@ -10,8 +10,8 @@ export namespace ImageButton {
         style?: ViewStyle | TextStyle | ImageStyle;
         imageSource?: ImageRequireSource;
         iconName?: string;
-        imageStyle?: ImageStyle;
-        iconStyle?: TextStyle;
+        imageStyle?: ImageStyle | ImageStyle[];
+        iconStyle?: TextStyle | TextStyle[];
         onPress: () => void;
     }
 
