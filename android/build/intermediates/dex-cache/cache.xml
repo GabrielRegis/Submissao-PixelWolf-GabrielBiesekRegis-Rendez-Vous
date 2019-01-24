@@ -3,192 +3,423 @@
 
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/17.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_78f57f950a946b1b4f6c244d929922158f6e3a1a.jar" />
+        revision="27.0.2"
+        sha1="7f133783c2585f537d4360f8a52555a7d87ea796">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/17.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/29.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_1c6557449e23532b63a691e25e06f1cc9f242118.jar" />
+        revision="27.0.2"
+        sha1="8740ab86d3f5c374e57d656767d26560ad6b1aa0">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/29.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/19.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_8ef8497ce9df855228b82ef0e60ffb857213163d.jar" />
+        revision="27.0.2"
+        sha1="2fef1eb46568eac07e29c03138068b8f23684d35">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/19.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/16.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8bab3e29ed73864731be0729dd231e0b52fa36ce.jar" />
+        revision="27.0.2"
+        sha1="5aef7a2c1e71e219d4ae20e8335543d8c5fd51dc">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/16.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/11.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_586345f13b3a23fc98c01323a0e959ad28a5d5d5.jar" />
+        revision="27.0.2"
+        sha1="629c0d2f0f955d62e5e9bad163464a3279a7f16a">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/11.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/10.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_2929e33ce32e2378acb24af9233114924e6ca08c.jar" />
+        revision="27.0.2"
+        sha1="105a4aa07b377e86b8e01c97fdec6be82201bb16">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/10.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/36.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_64abb610e35ef436a85d6b8f5dd3f07fc9ad73a6.jar" />
+        revision="27.0.2"
+        sha1="c9cd4562e8ee4ec8de30ff0d44c759791d81258d">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/36.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/12.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_c0f4e97e540c62b151a83168b5d6e63234149c4a.jar" />
+        revision="27.0.2"
+        sha1="f19f30a974e3fe7608f47ff0d1a83f278bd955b5">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/12.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/15.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_cf5471643bf6f781a7fe3ddd7631cb157d2a36d8.jar" />
+        revision="27.0.2"
+        sha1="4de42358a9251f959d700b54502260895be77b17">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/15.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/20.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_52bc47eefc5d61acd85d3db0c7ec4e12ea1acb82.jar" />
+        revision="27.0.2"
+        sha1="b3425fda3d89a401555582541a265b6d334db525">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/20.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/5.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_a5869a09ade777bb61c306cc260060367ba07937.jar" />
+        revision="27.0.2"
+        sha1="5859f984d649ff810cf693ed7facfd12dfc49f8d">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/24.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_91939b9c0f62ad25d4e66fbb50ea3feadbd1eb70.jar" />
+        revision="27.0.2"
+        sha1="2f919498b5983247904030a96928c7beedfa2842">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/24.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/13.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_4f503e5e818a3086bedc7c38ff8edc752d8f1272.jar" />
+        revision="27.0.2"
+        sha1="65b794385da3c724fc430871a2718766c23bb53c">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/13.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/25.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_615004f37f7b0ddefa8d268de629fb6cfa22a0d3.jar" />
+        revision="27.0.2"
+        sha1="a3c3ff90d7360eb99c76e4fab41c542488e2755e">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/25.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/processing-tools/runtime-deps/release/desugar_try_with_resources.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_0dfe97d8f7d4aa0f08837903073506bd92363585.jar" />
+        revision="27.0.2"
+        sha1="dfeede25fde82c239dee8378efc8b1af6365c42b">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/43.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/21.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_282af7cce26e3ecb91559d593385c4eabcf460a5.jar" />
+        revision="27.0.2"
+        sha1="d9836719d889e4cdad05243417043f58cf299c7b">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/21.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/28.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_0f63016ac8cdc4c8a85d957f80eaa7d72921e9c9.jar" />
+        revision="27.0.2"
+        sha1="46802286508b20b1427852408b171a0eeb7e498c">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/28.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/23.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_f312228a0996cb475968333db7eddff8d31df064.jar" />
+        revision="27.0.2"
+        sha1="ff8f63bfdc3d2f263be6121587598a7eb13e66c2">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/23.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/27.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_5f75eddbcc9e96541f528203b0d36aad1385a1df.jar" />
+        revision="27.0.2"
+        sha1="9aa21e0bfcef70e240473864332cb65ceb31fd1d">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/27.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/41.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_2f1c18364f53db8a67df323bbae5050d8731a203.jar" />
+        revision="27.0.2"
+        sha1="9577e4d746c6bad3ad1a3e82ec6af29fca0268cf">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/41.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/18.jar"
         jumboMode="false"
+        min-sdk-version="16"
         optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_874695466503148d27a292bc0f02cf72053b53c4.jar" />
+        revision="27.0.2"
+        sha1="f632bd8b6f3b9e02065657e67b26769e2ee514c4">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a1c15cd2208a052eb0803d7fc5cb9f4bb781b063">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/37.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2cf792ebd55e79281254ade2c1f681ef9b2e1a51">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/34.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="faaf3306a8f30d85e35a35fa407d28d1a848bb99">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/22.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="c7aa96227296b2034aae658516695436901f1dcc">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="91129c299cc12304b456ecef283dd143a4f5dea2">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/42.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="3111bbaf1cff93e882196058895ecd1f89c45b97">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/31.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="518bc099ae3fca403225f97aba2283e105842f95">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/35.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="c262b2647b26e3e09072d59d326838ad0de69a73">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/26.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="7757f322b9e73bad7e2901a43f9f975e8530cbbe">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="3f6fbeab4583497b865bfa36c5d9a6fc62401031">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e4f1b73d6e38236967efc91b81c9dcad02e8be03">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/40.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="29540c4fd32c5743f764d18c86d0c8309a3f087b">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="6b8b0c7ae62bfae224ca2bcc9ba5b63bbf0fa984">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/33.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b01670fadda69a0d0e753b202ca12aedb9addc90">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/38.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fff4f0153a3896ca2402ea0395a848c1f7068fb3">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/39.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fb787c18185d09295444bb1311f00ec9dddbd540">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="26dd74b16932f38be36055c8a7134d2e25db9545">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="026b6de074ab050598131afa1a54ad3abf930609">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/32.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="49db7262c7c8dcbee148a27ad091ca5208c6726c">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a8ea994adcffba680c1f5c5ccb57ed0dcf2b73bf">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/desugar/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="27.0.2"
+        sha1="97522c1a327bfe1b27300cb0990558cb42318b50">
+        <dex dex="/Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/transforms/preDex/release/8.jar" />
     </item>
 
 </items>

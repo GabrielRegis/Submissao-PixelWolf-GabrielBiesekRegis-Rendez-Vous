@@ -4,10 +4,8 @@ import Colors from './Colors';
 import Fonts from './Fonts';
 import { responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 
-// Funcionamento similar ao BOOTSTRAP
 
 export default {
-    // Todos os estilos de view
     screen: {
         // Border
         border1: {
@@ -393,7 +391,6 @@ export default {
         } as ViewStyle,
         mainContainer: {
             flex: 1,
-            backgroundColor: Colors.colors.white
         } as ViewStyle,
         textInputView: {
             width: responsiveWidth(85),
