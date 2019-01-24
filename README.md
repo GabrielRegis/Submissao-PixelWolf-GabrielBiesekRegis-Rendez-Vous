@@ -1,5 +1,6 @@
 ![](https://lh3.googleusercontent.com/zvq280HtrqTO5DmYPlyyyFE7g2pWZwDEiT3beTg3oQ2-jFW07-ErwlXdeyaWFFJmAzFZIvIUyKi8 "Title")
-## Sobre
+
+# Sobre
 
 Rendez-Vous é um aplicativo de uma simples lista de tarefa, desenvolvido exclusivamente como minha participação (Gabriel Biesek Regis) no processo seletivo da [PixelWolf
 ](https://pixelwolf.com.br/).
@@ -22,3 +23,19 @@ Rendez-Vous é um aplicativo de uma simples lista de tarefa, desenvolvido exclus
 -   [**react-native-i18n**](https://github.com/AlexanderZaytsev/react-native-i18nl) **- Utilizado em todo o App para a possibilidade de internacionalização de todos os textos.**
 -   [**react-redux**](https://github.com/reduxjs/react-redux) **- Controle do estado global. Utilizado para persistir tarefas no dispositivo, além de comunicação entre componentes.**
 -   [**lottie-react-native**](https://github.com/react-native-community/lottie-react-native) **- Utilizado para reproduzir as animações da tela de Tutorial.**
+
+# Como rodar
+
+Abra o terminal na pasta raiz do projeto e instale suas dependências através do comando:
+
+    yarn
+ou 
+
+    npm install
+
+## Android - Através do terminal 
+
+
+
+
+
