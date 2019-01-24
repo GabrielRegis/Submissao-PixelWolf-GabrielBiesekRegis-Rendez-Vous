@@ -29,7 +29,7 @@ Rendez-Vous é um aplicativo de uma simples lista de tarefa, desenvolvido exclus
 ## Design
 
 De modo à esboçar a aparência e os principais elementos do aplicativo, todas as telas foram projetadas utilizando o [Sketch
-](https://www.sketchapp.com/). O projeto executável pode ser encontrado no diretório ./Design
+](https://www.sketchapp.com/). O projeto executável pode ser encontrado no diretório **./Design**
 
 ![
 ](https://lh3.googleusercontent.com/LzVJEag7Q4X3bzTAb33R7ewgHy376JnHQPNNl6sy4jSQSFsCGP2maQrJx8oMhyxVp4S_vsbsB6Zi "Design")
@@ -57,7 +57,7 @@ De modo à esboçar a aparência e os principais elementos do aplicativo, todas 
 
 ## Opção 1 - Android - Instalação do APK
 
-Utilize um instalador de APK's para instalar o APK localizado no diretório ./Apk/RendezVous.apk 
+Utilize um instalador de APK's para instalar o APK localizado no diretório **./Apk/RendezVous.apk** 
 
 ## Opção 2 - Android - Através do Terminal/IDE
 
@@ -68,7 +68,7 @@ ou
 
     npm install
 
-Certifique-se de que tenha o SDK do Android instalado em seu ambiente de compilação, e então modifique o arquivo localizado em ./android/local.properties de forma à especificar o caminho de instalação do SDK.
+Certifique-se de que tenha o SDK do Android instalado em seu ambiente de compilação, e então modifique o arquivo localizado em **./android/local.properties** de forma à especificar o caminho de instalação do SDK.
 
     Exemplo MacOS
     /Users/seu-usuario/Library/Android/sdk
