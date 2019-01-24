@@ -23,9 +23,6 @@ const editTodo: Reducer<ImmutableTodoState> = (state: ImmutableTodoState, { payl
         const todoIndex = state.todos.findIndex((todo: Todo) => {
             return todo.id === payload.id;
         });
-
-        console.tron.log(todoIndex);
-
         if (todoIndex !== -1) {
             const updatedTodos: Todo[] = Object.assign([], state.todos);
             updatedTodos[todoIndex] = payload;

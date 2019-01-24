@@ -4,10 +4,8 @@ import Colors from './Colors';
 import Fonts from './Fonts';
 import { responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 
-// Funcionamento similar ao BOOTSTRAP
 
 export default {
-    // Todos os estilos de view
     screen: {
         // Border
         border1: {

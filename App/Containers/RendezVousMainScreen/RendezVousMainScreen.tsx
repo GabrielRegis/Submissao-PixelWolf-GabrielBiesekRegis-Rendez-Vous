@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, ListRenderItemInfo, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, ListRenderItemInfo, FlatList, TouchableOpacity, BackHandler } from 'react-native';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { RootState } from '../../Store/state';
@@ -56,7 +56,16 @@ export class RendezVousMainScreen extends React.Component<RendezVousMainScreen.P
 
     componentDidMount() {
         this.filterTodos(this.props.todosState.todos);
+        BackHandler.addEventListener('hardwareBackPress', this.handleBack);
     }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.handleBack);
+    }
+
+    handleBack = () => {
+        return true;
+    };
 
     componentWillReceiveProps = (newProps: RendezVousMainScreen.Props) => {
         this.filterTodos(newProps.todosState.todos);

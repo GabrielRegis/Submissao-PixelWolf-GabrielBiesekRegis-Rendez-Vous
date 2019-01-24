@@ -13,7 +13,7 @@ export namespace LabeledTextField {
         maxLength?: number;
         onTextChanged?: (text: string) => void;
         style?: ViewStyle;
-        error?: boolean
+        error?: boolean;
     }
 
     // tslint:disable-next-line:no-empty-interface
@@ -44,7 +44,7 @@ export default class LabeledTextField extends React.Component<LabeledTextField.P
         return (
             <View style={[styles.leftAlignedColumn, this.props.style]}>
                 <Text style={[styles.labelText, { color: colorAux }]}>{this.props.label}</Text>
-                <View style={[styles.xSmallPadding, this.props.error ? styles.textInputContainerError : styles.textInputContainer, styles.smallMarginTop]}>
+                <View style={[styles.smallPadding, this.props.error ? styles.textInputContainerError : styles.textInputContainer, styles.smallMarginTop]}>
                     <TextInput
                         style={[styles.inputText, { height: this.state.componentHeight, color: colorAux }]}
                         selectionColor={colorAux}

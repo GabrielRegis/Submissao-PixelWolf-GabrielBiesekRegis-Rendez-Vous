@@ -4,7 +4,8 @@ import { ApplicationStyles, Colors, Fonts } from '../../Themes/index';
 export default {
     ...ApplicationStyles.screen,
     inputText: {
-        fontFamily: Fonts.defaultFont
+        fontFamily: Fonts.defaultFont,
+        width: '100%'
     } as TextStyle,
     labelText: {
         fontFamily: Fonts.defaultFont,
@@ -13,12 +14,16 @@ export default {
     textInputContainer: {
         backgroundColor: Colors.colors.rendezvousSilentGrey,
         borderRadius: 4,
-        width: '100%'
+        width: '100%',
+        alignItems: 'flex-start',
+        justifyContent: 'center'
     } as ViewStyle,
     textInputContainerError: {
         backgroundColor: Colors.colors.rendezvousRed,
         borderRadius: 4,
-        width: '100%'
+        width: '100%',
+        alignItems: 'flex-start',
+        justifyContent: 'center'
     } as ViewStyle,
     characterCountContainer: {
         width: '100%',

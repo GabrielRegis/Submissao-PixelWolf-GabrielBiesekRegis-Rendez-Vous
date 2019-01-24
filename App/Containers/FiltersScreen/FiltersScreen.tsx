@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, BackHandler } from 'react-native';
 
 import styles from './FiltersScreenStyles';
 import I18n from '../../I18n/I18n';
@@ -31,6 +31,19 @@ export default class FiltersScreen extends React.Component<FiltersScreen.Props, 
             filters: navFilters
         };
     }
+
+    componentDidMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.handleBack);
+    }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.handleBack);
+    }
+
+    handleBack = () => {
+        this.onOkPressed();
+        return true;
+    };
 
     onFilterByCompletedTasksChanged = (isActive: boolean) => {
         this.setState({

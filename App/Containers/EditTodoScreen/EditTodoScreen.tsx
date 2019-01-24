@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, TextStyle, TouchableOpacity } from 'react-native';
+import { View, Text, TextStyle, TouchableOpacity, BackHandler } from 'react-native';
 
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import styles from './EditTodoScreenStyles';
@@ -51,6 +51,19 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
             titleError: false
         };
     }
+
+    componentDidMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.handleBack);
+    }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.handleBack);
+    }
+
+    handleBack = () => {
+        this.onOkPressed();
+        return true;
+    };
 
     onTitleChanged = (titleAux: string) => {
         this.setState({

@@ -7,10 +7,10 @@ export default {
     ...ApplicationStyles.screen,
     navbar: {
         width: '100%',
-        height: Platform.OS === 'ios' && height > 800 ? 120 : 72,
+        height: Platform.OS === 'ios' && height > 800 ? 120 : 85,
         justifyContent: 'space-between',
         paddingVertical: 0,
-        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : 0,
+        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : 20,
         backgroundColor: Colors.colors.rendezvousRed
     } as ViewStyle,
     navbarText: {

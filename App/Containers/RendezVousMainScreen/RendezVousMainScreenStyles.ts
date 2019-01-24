@@ -8,7 +8,7 @@ export default {
     fullContainer: {
         ...ApplicationStyles.screen.fullContainer,
         backgroundColor: Colors.colors.rendezvousGunmetal,
-        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : 25
+        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : 35
     } as ViewStyle,
     addTodoButton: {
         borderRadius: 5,
