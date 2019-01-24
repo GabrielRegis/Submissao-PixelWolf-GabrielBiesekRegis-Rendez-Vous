@@ -1,40 +1,88 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:lottie-react-native] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-date-picker] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-date-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-i18n] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-config] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:2:1-15:12
+MERGED from [com.airbnb.android:lottie:2.5.6] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7a893d3367c8e3bfa3c559d8b07e131e/AndroidManifest.xml:2:1-13:12
+MERGED from [cn.carbswang.android:NumberPickerView:1.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.1.1.aar/280eb511400ef9934d994db220080678/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6133af9950514269911b12f77d4092df/AndroidManifest.xml:17:1-22:12
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/39947237e7ebe1b0033b59a3f94d890f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3d12dfcf7cdf7de74eaa5542e9039ff7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b42f9d42401f63d2e006378b43e11e85/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/d346aae358af1079a0b955ff9d727a2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/41b82f7c06196a2ebce3abd04aab3589/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d7b7b48aa9221b519fc619011d8208f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3281a838482ea5cea932baad38eb2409/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/2b3bec79370a59434c602d9630db8a05/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/224c162de4f0675ccf77d8ffdc27964d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/84ed074ba68ca5c13b1a2773b355b4e4/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/ad7adda2561ce4adce41a7547f2df056/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/b0ad512fc7a849d64081782fb9084621/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/69152e0c625290bce60c7f5d27167601/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7c50867933ca7730d6644d0c3047320d/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/166a205895ea5f4475cbe984c218dab7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/9d3f4478876ac462f37a714f4d2539a6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/210005a31a6312bc201e051501d76e36/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4992854c21d4d04bfd6a4fe58b5cb313/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:2:5-29
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:11-69
-	android:versionCode
-		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:lottie-react-native] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-16:19
+MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-16:19
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:13:5-20
+MERGED from [com.airbnb.android:lottie:2.5.6] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7a893d3367c8e3bfa3c559d8b07e131e/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.6] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7a893d3367c8e3bfa3c559d8b07e131e/AndroidManifest.xml:11:5-20
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:12:5-20
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/84ed074ba68ca5c13b1a2773b355b4e4/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/84ed074ba68ca5c13b1a2773b355b4e4/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:9:7-39
-	android:allowBackup
-		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:icon
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
@@ -65,26 +113,83 @@ ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/ma
 		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+MERGED from [:lottie-react-native] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-date-picker] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-date-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-date-picker] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-date-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-i18n] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-i18n] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-i18n/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-config] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/573c58a968983f1757364360e96abda3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.6] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7a893d3367c8e3bfa3c559d8b07e131e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.6] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/lottie-2.5.6.aar/7a893d3367c8e3bfa3c559d8b07e131e/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.carbswang.android:NumberPickerView:1.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.1.1.aar/280eb511400ef9934d994db220080678/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.carbswang.android:NumberPickerView:1.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.1.1.aar/280eb511400ef9934d994db220080678/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6133af9950514269911b12f77d4092df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6133af9950514269911b12f77d4092df/AndroidManifest.xml:20:5-44
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:8:5-10:41
+MERGED from [net.time4j:time4j-android:3.42-2018e] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/time4j-android-3.42-2018e.aar/7671a9a7baaa9ea4da908c1f65024d93/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/39947237e7ebe1b0033b59a3f94d890f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/39947237e7ebe1b0033b59a3f94d890f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3d12dfcf7cdf7de74eaa5542e9039ff7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3d12dfcf7cdf7de74eaa5542e9039ff7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b42f9d42401f63d2e006378b43e11e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b42f9d42401f63d2e006378b43e11e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/d346aae358af1079a0b955ff9d727a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/d346aae358af1079a0b955ff9d727a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/41b82f7c06196a2ebce3abd04aab3589/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/41b82f7c06196a2ebce3abd04aab3589/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d7b7b48aa9221b519fc619011d8208f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d7b7b48aa9221b519fc619011d8208f2/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3281a838482ea5cea932baad38eb2409/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3281a838482ea5cea932baad38eb2409/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/2b3bec79370a59434c602d9630db8a05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/2b3bec79370a59434c602d9630db8a05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/224c162de4f0675ccf77d8ffdc27964d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/224c162de4f0675ccf77d8ffdc27964d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/fca753f8f9874c9a963e9fc59016545b/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/ad7adda2561ce4adce41a7547f2df056/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/ad7adda2561ce4adce41a7547f2df056/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/b0ad512fc7a849d64081782fb9084621/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/b0ad512fc7a849d64081782fb9084621/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/69152e0c625290bce60c7f5d27167601/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/69152e0c625290bce60c7f5d27167601/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7c50867933ca7730d6644d0c3047320d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7c50867933ca7730d6644d0c3047320d/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/166a205895ea5f4475cbe984c218dab7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/166a205895ea5f4475cbe984c218dab7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/9d3f4478876ac462f37a714f4d2539a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/9d3f4478876ac462f37a714f4d2539a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/210005a31a6312bc201e051501d76e36/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/210005a31a6312bc201e051501d76e36/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4992854c21d4d04bfd6a4fe58b5cb313/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/gabrielregis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4992854c21d4d04bfd6a4fe58b5cb313/AndroidManifest.xml:20:5-44
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.VIBRATE
+ADDED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from [:react-native-interactable] /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/node_modules/react-native-interactable/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
+uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/gabrielregis/Projetos/PixelWolf-Rendez-Vous/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

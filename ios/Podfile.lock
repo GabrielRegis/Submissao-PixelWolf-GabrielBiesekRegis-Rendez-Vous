@@ -1,0 +1,31 @@
+PODS:
+  - lottie-ios (2.5.0)
+  - lottie-react-native (2.5.11):
+    - lottie-ios
+    - React
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
+
+DEPENDENCIES:
+  - lottie-ios (from `../node_modules/lottie-ios`)
+  - lottie-react-native (from `../node_modules/lottie-react-native`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - React
+
+EXTERNAL SOURCES:
+  lottie-ios:
+    :path: "../node_modules/lottie-ios"
+  lottie-react-native:
+    :path: "../node_modules/lottie-react-native"
+
+SPEC CHECKSUMS:
+  lottie-ios: 9f24be3ecb13412223b6ac70d97437742b0e3de1
+  lottie-react-native: 31ceb9d2d1423fa99c64d19eb93c0364256a6a3e
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+
+PODFILE CHECKSUM: f16999d4e53af1090e2c0c626d98b245474fc6c8
+
+COCOAPODS: 1.5.2

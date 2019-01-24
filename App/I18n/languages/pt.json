@@ -1,8 +1,24 @@
 {
-    "loginScreen": {
-        "passwordHint": "Insira sua senha",
-        "emailHint": "Insira seu email",
-        "forgotPassword": "Esqueci a senha",
-        "btnLogin": "Entrar"
+    "RendezVousMainScreen": {
+        "athleticsCategoryLabel": "Atividade Física",
+        "socialCategoryLabel": "Social",
+        "educationCategoryLabel": "Educação",
+        "foodCategoryLabel": "Alimentação",
+        "addButtonLabel": "Adicionar tarefa"
+    },
+    "EditTodoScreen": {
+        "titleLabel": "Título",
+        "descriptionLabel": "Descrição",
+        "saveLabel": "Salvar tarefa"
+    },
+    "FiltersScreen": {
+        "filtersLabel": "Filtros"
+    },
+    "TutorialScreen": {
+        "touchTutorial": "Toque em uma tarefa para visualizar sua descrição",
+        "checkTutorial": "Toque no componente indicado abaixo para completar uma tarefa",
+        "swipeTutorial": "Deslize para editar ou deletar uma tarefa",
+        "editTutorial": "Ao editar as informações de uma tarefa, é possível escolher sua categoria",
+        "gotItLabel": "Entendi!"
     }
 }

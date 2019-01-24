@@ -3,9 +3,11 @@ package com.rendezvous;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.airbnb.android.react.lottie.LottiePackage;
+import com.henninghall.date_picker.DatePickerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.wix.interactable.Interactable;
-import com.i18n.reactnativei18n.ReactNativeI18n;
+import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
 import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -25,13 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new VectorIconsPackage(),
-            new Interactable(),
-            new ReactNativeI18n(),
-            new ReactNativeConfigPackage()
-      );
+      return Arrays.<ReactPackage>asList(new MainReactPackage(), new LottiePackage(), new DatePickerPackage(),
+          new VectorIconsPackage(), new Interactable(), new RNI18nPackage(), new ReactNativeConfigPackage());
     }
 
     @Override

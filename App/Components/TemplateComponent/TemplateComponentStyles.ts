@@ -1,4 +1,4 @@
-import { StyleSheet, ViewStyle } from 'react-native';
+import { ViewStyle } from 'react-native';
 import { ApplicationStyles, Colors } from '../../Themes/index';
 
 export default {

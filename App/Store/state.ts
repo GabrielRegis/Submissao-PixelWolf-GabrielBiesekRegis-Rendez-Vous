@@ -1,7 +1,7 @@
 import { NavigationState } from './navigation';
-import { ImmutableLoginState } from './login/state';
+import { ImmutableTodoState } from './todos/state';
 
 export interface RootState {
-    login: ImmutableLoginState;
     nav: NavigationState;
+    todos: ImmutableTodoState;
 }
