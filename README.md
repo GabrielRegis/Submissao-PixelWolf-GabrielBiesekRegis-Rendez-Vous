@@ -51,8 +51,6 @@ De modo à esboçar a aparência e os principais elementos do aplicativo, todas 
 	 - **Colors**: Todas as cores do aplicativo são definidas aqui, e são visíveis à todos.
 	 - **Fonts**: Todas as fotos do aplicativo são definidas aqui, e são visíveis à todos.
 
-	 
-
 # Como rodar
 
 ## Opção 1 - Android - Instalação do APK
@@ -77,10 +75,11 @@ Por último, execute o seguinte comando no diretório raiz do projeto
 
     react-native run-android --variant=release
 
+## Opção 3 - iOS - Através do XCode
 
+Inicialize o XCode e abra o projeto localizado em **./ios/RendezVous.xcodeproj**
 
+Execute o App ao pressionar o botão "Play", como mostrado abaixo:
 
-
-
-
-
+![
+](https://lh3.googleusercontent.com/iBPUJVVagRh9kf_YAn2E4QyLx3TmwYjZNhaFC3UErlK9s8ZvQKgZFk-5KffOlQvdj1zLiuU7gXok)
