@@ -51,6 +51,17 @@ De modo à esboçar a aparência e os principais elementos do aplicativo, todas 
 	 - **Colors**: Todas as cores do aplicativo são definidas aqui, e são visíveis à todos.
 	 - **Fonts**: Todas as fotos do aplicativo são definidas aqui, e são visíveis à todos.
 
+# Principais funcionalidades
+
+| Tutorial |Visualizar e Completar  |
+|--|--|
+| **Editar** | **Filtrar** |
+
+![enter image description here](https://lh3.googleusercontent.com/OYd_uWDEHfZqOTKGUYMMxbc3l-3-4iapEKQ7CaJT6a9LHizeZBgrNdONJzPcE8dUXdQ138jgOE6P)![enter image description here](https://lh3.googleusercontent.com/0XIdH6inEu6FM6azk0urhdqKa369WEzsOKDFjqGCaezJ2WIU9tI3H5veTK5FLPFxhg27KSu546Uv)
+![enter image description here](https://lh3.googleusercontent.com/Wfq-gibGskhyeMNO2R2BixvCwYPO1XdxguL8hLXkbtcIzpMpDx-EYK0UbGKgUItFB2itNyFKKxXs)![enter image description here](https://lh3.googleusercontent.com/eGgVA0vzBjVKQ91Pyyo3xVJPSV1HU8E_C4NTlghXLhY0Fl5lCHj1nBofZsv9_T1fbWclaomUwHPi)
+
+
+
 # Como rodar
 
 ## Opção 1 - Android - Instalação do APK
