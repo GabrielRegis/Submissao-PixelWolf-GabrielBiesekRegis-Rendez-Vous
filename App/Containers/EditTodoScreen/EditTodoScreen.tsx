@@ -32,6 +32,7 @@ export namespace EditTodoScreen {
         isEditingTodo: boolean;
         todoCategories: TodoCategory[];
         titleError: boolean;
+        date: Date;
     }
 }
 
@@ -40,12 +41,13 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
         super(props, context);
 
         const categories = this.props.navigation.getParam('todoCategories', []);
-        const todo = this.props.navigation.getParam('todo', { id: uuid.v1(), category: categories[0], date: new Date() });
+        const todo: Todo = this.props.navigation.getParam('todo', { id: uuid.v1(), category: categories[0], date: new Date() });
 
         this.state = {
             isEditingTodo: todo.title !== null && todo.title !== undefined,
             updatedTodo: todo,
             todoCategories: categories,
+            date: todo.date ? new Date(todo.date.toString()) : new Date(),
             titleError: false
         };
     }
@@ -115,7 +117,8 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
             updatedTodo: {
                 ...this.state.updatedTodo,
                 date: dateAux
-            }
+            },
+            date: dateAux
         });
     };
 
@@ -163,7 +166,7 @@ export class EditTodoScreen extends React.Component<EditTodoScreen.Props, EditTo
                         textColor={category.color}
                         style={styles.datePicker}
                         locale={'pt'}
-                        date={this.state.updatedTodo.date}
+                        date={this.state.date}
                         onDateChange={this.onDateChanged}
                     />
                     <View style={styles.centeredRow}>

@@ -16,6 +16,7 @@ import { TodoActions } from '../../Store/todos/actions';
 import { NavigationScreenProp } from 'react-navigation';
 import _ from 'lodash';
 import { Filters } from '../../Model/Filters';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 export namespace RendezVousMainScreen {
     // tslint:disable-next-line:no-empty-interface
@@ -51,6 +52,10 @@ export class RendezVousMainScreen extends React.Component<RendezVousMainScreen.P
             search: null,
             filters: { filterByCompletedTasks: true, filterByPendingTasks: true }
         };
+    }
+
+    componentDidMount() {
+        this.filterTodos(this.props.todosState.todos);
     }
 
     componentWillReceiveProps = (newProps: RendezVousMainScreen.Props) => {
@@ -136,7 +141,7 @@ export class RendezVousMainScreen extends React.Component<RendezVousMainScreen.P
         if (item.item.id === undefined) {
             return (
                 <TouchableOpacity onPress={this.onAddTodoPressed} style={[styles.shadowView2, styles.centeredColumn, styles.addTodoButton]}>
-                    <Text style={styles.addTodoButtonText}>{I18n.t(['RendezVousMainScreen', 'addButtonLabel'])}</Text>
+                    <Icon name={'plus-circle'} style={styles.addTodoButtonText} />
                 </TouchableOpacity>
             );
         }

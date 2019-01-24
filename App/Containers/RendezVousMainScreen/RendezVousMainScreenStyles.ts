@@ -1,6 +1,5 @@
-import { StyleSheet, ViewStyle, TextStyle, Dimensions, Platform } from 'react-native';
+import { ViewStyle, TextStyle, Dimensions, Platform } from 'react-native';
 import { ApplicationStyles, Colors, Fonts } from '../../Themes/index';
-import { responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 
 const { width, height } = Dimensions.get('window');
 
@@ -9,7 +8,7 @@ export default {
     fullContainer: {
         ...ApplicationStyles.screen.fullContainer,
         backgroundColor: Colors.colors.rendezvousGunmetal,
-        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : responsiveWidth(3)
+        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : 25
     } as ViewStyle,
     addTodoButton: {
         borderRadius: 5,
@@ -20,7 +19,7 @@ export default {
     } as ViewStyle,
     addTodoButtonText: {
         fontFamily: Fonts.defaultFont,
-        fontSize: 18,
+        fontSize: 40,
         color: Colors.colors.rendezvousGunmetal
     } as TextStyle
 };

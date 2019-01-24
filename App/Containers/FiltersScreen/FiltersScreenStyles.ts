@@ -1,13 +1,16 @@
-import { ViewStyle, TextStyle } from 'react-native';
+import { ViewStyle, TextStyle, Platform, Dimensions } from 'react-native';
 import { ApplicationStyles, Colors, Fonts } from '../../Themes/index';
+
+const { width, height } = Dimensions.get('window');
 
 export default {
     ...ApplicationStyles.screen,
     navbar: {
         width: '100%',
-        height: 72,
+        height: Platform.OS === 'ios' && height > 800 ? 120 : 72,
         justifyContent: 'space-between',
         paddingVertical: 0,
+        paddingTop: Platform.OS === 'ios' && height > 800 ? 50 : 0,
         backgroundColor: Colors.colors.rendezvousRed
     } as ViewStyle,
     navbarText: {

@@ -5,6 +5,7 @@ export default {
     ...ApplicationStyles.screen,
     searchFieldContainer: {
         borderRadius: 40,
+        height: 40,
         backgroundColor: Colors.colors.rendezvousWhite,
         flexDirection: 'row',
         justifyContent: 'center',

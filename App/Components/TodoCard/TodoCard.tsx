@@ -91,7 +91,7 @@ export default class TodoCard extends React.Component<TodoCard.Props, TodoCard.S
                                     <Animatable.Text
                                         duration={200}
                                         transition={['opacity', 'fontSize']}
-                                        style={[styles.todoTitleText, componentsCategoryAndStatusStyle, { fontSize: this.props.todo.isChecked ? 18 : 20 }]}>
+                                        style={[styles.todoTitleText, componentsCategoryAndStatusStyle, { fontSize: this.props.todo.isChecked ? 14 : 16 }]}>
                                         {this.props.todo.title}
                                     </Animatable.Text>
                                     <Animatable.Text

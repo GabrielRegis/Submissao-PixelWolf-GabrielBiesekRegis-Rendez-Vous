@@ -5,6 +5,8 @@ import RendezVousMainScreen from '../Containers/RendezVousMainScreen/RendezVousM
 import I18n from '../I18n/I18n';
 import EditTodoScreen from '../Containers/EditTodoScreen/EditTodoScreen';
 import FiltersScreen from '../Containers/FiltersScreen/FiltersScreen';
+import TutorialScreen from '../Containers/TutorialScreen/TutorialScreen';
+import { LaunchScreen } from '../Containers/LaunchScreen/LaunchScreen';
 
 // Manifest of possible screens
 const PrimaryNav = StackNavigator(
@@ -29,12 +31,26 @@ const PrimaryNav = StackNavigator(
                 header: null,
                 headerBackTitle: null
             }
+        },
+        TutorialScreen: {
+            screen: TutorialScreen,
+            navigationOptions: {
+                header: null,
+                headerBackTitle: null
+            }
+        },
+        LaunchScreen: {
+            screen: LaunchScreen,
+            navigationOptions: {
+                header: null,
+                headerBackTitle: null
+            }
         }
     },
     {
         // Default config for all screens
         headerMode: 'screen',
-        initialRouteName: 'RendezVousMainScreen'
+        initialRouteName: 'LaunchScreen'
     }
 );
 
