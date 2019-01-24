@@ -9,7 +9,7 @@ Rendez-Vous é um aplicativo de uma simples lista de tarefa, desenvolvido exclus
 
  - Desenvolvido em React Native, com auxílio do [TypeScript
 ](https://github.com/Microsoft/TypeScript)
-- Tempo total de desenvolvimento: 22 Horas, aproximadamente.
+- Tempo total de desenvolvimento: 25 Horas, aproximadamente.
 - Utilizado um padrão de projeto previamente desenvolvido em experiências passadas.
 - Software utilizado para a criação do Layout/Protótipo do aplicativo: [Sketch
 ](https://www.sketchapp.com/)
